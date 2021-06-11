@@ -4,5 +4,5 @@ Collaborators:
 
 Carley Engleson</br>
 Cheyenne Martin</br>
-Derek Larson</b>
-Sam Warren</b>
+Derek Larson</br>
+Sam Warren</br>
