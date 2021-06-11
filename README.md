@@ -2,7 +2,7 @@ Welcome to our group project!
 
 Collaborators:
 
-Carley Engleson
-Cheyenne Martin
-Derek Larson
-Sam Warren
+Carley Engleson</br>
+Cheyenne Martin</br>
+Derek Larson</b>
+Sam Warren</b>
