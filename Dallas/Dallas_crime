@@ -1,0 +1,12 @@
+create table Dallas(
+	"IncidentNum" varchar,
+	"ArrestYr" varchar,
+	"ArArrestTime" varchar,
+	"ArLCity" varchar,
+	"DrugType" varchar,
+	"ClothingWorn" varchar
+	
+	
+);
+
+select * from Dallas;
