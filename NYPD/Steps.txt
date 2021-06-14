@@ -1,0 +1,6 @@
+1.Read in csv file and stored in dataframe
+2.Cleaned  dataframe and eliminated unwanted columns
+3.Changed column names to make more readable
+4.Created connection to local database in PgAdmin
+5.Checked tables names
+6. Confirmed data had been added to database by querying the nypd table
