@@ -6,8 +6,8 @@ saved onto our individual machines in a hidden Kaggle folder that we each then p
 terminal commands. Importing zipfile into our notebooks allowed us to access and quickly extract the zip files within, 
 so that we could then use pandas to easily read in the csv's just by changing the index of each dataset list. We 
 decided on four csv's out of the data set: 
-1. national adults arrested data, 2. Chicago crime and arrest data, 
-3. national police info/budget data, and 4. NYPD crime and arrest data. 
+1. national adults arrested data, <br>2. Chicago crime and arrest data, <br>
+3. national police info/budget data, <br>4. NYPD crime and arrest data. 
  
 Each of us did our own ETL process for each of the csv's listed above so that all of us could get more practice with 
 the entire process of extract, transform, and load. The process for each of the csv's was similar, however we did 
