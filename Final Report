@@ -1,0 +1,22 @@
+    We decided to find datasets through Kaggle, as the interface is very user friendly, and you can quickly download json files of large data sets. The datasets we chose came from "Police Violence and Racial Equity - Part 2 of 3", which included demographics, crime statistics, and other useful data in the form of csv files. To do this, we each created accounts on Kaggle, and requested an API token for access to the json zip downloads. This token was then saved onto our individual machines in a hidden Kaggle folder that we each then pulled into a jupyter notebook via terminal commands. Importing zipfile into our notebooks allowed us to access and quickly extract the zip files within, so that we could then use pandas to easily read in the csv's just by changing the index of each dataset list. We decided on four csv's out of the data set: 1. national adults arrested data, 2. national police info/budget data, 3. Chicago crime and arrest data, and 4. NYPD crime and arrest data. 
+ 
+     Each of us did our own ETL process for each of the csv's listed above so that all of us could get more practice with the entire process of extract, transform, and load. The process for each of the csv's was similar, however we did certain steps slightly differently. Here are each of the steps for each csv dataframe we extracted, transformed, then loaded:
+
+1. National adults arrested data
+ - 
+ - interpreted which columns were important after reading csv in jupyter notebook
+ - cleaned table and removed unnecessary columns
+ - created police-violence-racial-equity database in pgadmin
+ - created adults_arrested table in pgadmin, added columns from cleaned df
+ - 
+
+2. National police info/budget data
+ - Used dropna to remove null values.
+ - Grabbed desired columns.
+ - Renamed columns.
+ - Set index to city_name and year.
+ - Used sqlalchemy to create an engine and session to a sqlite db.
+ - Created blank table.
+ - Inspected db to validate table exists.
+ - Pushed the dataframe to the table and appended if it existed.
+ - Executed a select query and created it into a pd.Dataframe to validate data was inside.
