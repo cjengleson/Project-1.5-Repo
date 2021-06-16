@@ -2,15 +2,30 @@
  
      Each of us did our own ETL process for each of the csv's listed above so that all of us could get more practice with the entire process of extract, transform, and load. The process for each of the csv's was similar, however we did certain steps slightly differently. Here are each of the steps for each csv dataframe we extracted, transformed, then loaded:
 
-1. National adults arrested data
- - 
+1. National adults arrested data (Carley Engleson)
+
+ - Pull in csv, create dataframe
  - interpreted which columns were important after reading csv in jupyter notebook
  - cleaned table and removed unnecessary columns
  - created police-violence-racial-equity database in pgadmin
  - created adults_arrested table in pgadmin, added columns from cleaned df
- - 
+ - created connection to postgresql database
+ - appended df to adults_arrested table in pgadmin
+ - confirmed transfer of data into database using pandas to read sql query
 
-2. National police info/budget data
+2. Chicago crime data (Cheyenne Martin)
+
+ - Read the CSV into jupyter notebook
+ - Printed the name of the columns since the file was large
+ - Selected the appropriate columns that I was interested in: 'ID', 'Primary Type', 'Description', and 'Year'
+ - Connected to SQL by creating an engine
+ - Set up the engine table names
+ - Pushed the Chicago Crime dataframe to SQL
+ - Used pandas to check if the connection was viable
+ 
+
+3. National police info/budget data (Derek Larson)
+
  - Used dropna to remove null values.
  - Grabbed desired columns.
  - Renamed columns.
@@ -20,3 +35,11 @@
  - Inspected db to validate table exists.
  - Pushed the dataframe to the table and appended if it existed.
  - Executed a select query and created it into a pd.Dataframe to validate data was inside.
+ 
+ 4. Dallas and NYPD crime data (Sam Warren)
+ 
+ - Read in csv file and stored in dataframe
+ - Cleaned  dataframe and eliminated unwanted columns
+ - Created connection to local database in PgAdmin
+ - Checked tables
+ - Confirmed data had been added to database by querying the Dallas table
